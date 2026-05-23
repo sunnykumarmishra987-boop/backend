@@ -1,0 +1,5 @@
+[providers]
+python = "3.12"
+
+[phases.setup]
+aptPkgs = ["libpq-dev", "gcc"]
