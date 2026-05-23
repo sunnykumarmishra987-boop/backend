@@ -1,5 +1,7 @@
-[providers]
-python = "3.12"
+providers = ["python"]
+
+[variables]
+NIXPACKS_PYTHON_VERSION = "3.12"
 
 [phases.setup]
-aptPkgs = ["libpq-dev", "gcc"]
+aptPkgs = ["...", "libpq-dev", "gcc"]
